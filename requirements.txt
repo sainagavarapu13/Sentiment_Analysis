@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+pypdf
+python-multipart
+pytest
+nltk
+scikit-learn
+gensim
+numpy

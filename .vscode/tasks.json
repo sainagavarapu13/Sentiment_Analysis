@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start React frontend (Vite)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev:frontend"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start FastAPI backend (Uvicorn)",
+			"type": "shell",
+			"command": "C:\\Users\\DELL\\Desktop\\sentiment-analysis-system\\.venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"uvicorn",
+				"sentiment_backend.main:app",
+				"--host",
+				"0.0.0.0",
+				"--port",
+				"8000",
+				"--reload"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
